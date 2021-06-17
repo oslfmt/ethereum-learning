@@ -1,0 +1,64 @@
+WHAT IS ETHEREUM?
+
+If I had to describe Ethereum in one sentence, I would say: Ethereum is
+a decentralized computing infrastructure that can perform any arbitrary
+computation. Not the best explanation, perhaps?
+
+The struggle for explaining Ethereum to beginners, especially non-technical
+people is that Ethereum is many things. It's sort of like trying to explain
+the internet, since the internet is also many things.
+
+What do most people think of the internet as today? Well, for the typical
+lay person, their understanding is probably limited to what they've
+interacted with, that is, their ISP. They know the concept of "connecting to
+wifi", and that being connected to the Internet essentially means clicking
+a few buttons on their computer, and somehow they are magically connected
+to this massive web, there's this feeling of being "online", that they can
+access anything that the internet brings them.
+
+They also know that there's an ISP that provides this service, and they have
+to pay the ISP, since the ISP maintains all the infrastructure that connects
+them to the internet. Thus, most people probably recognize that the Internet
+is a giant network of routers, computers, and wires that are all
+interconnected in some way.
+
+And what can they use this internet for? Well, practically everything we do
+nowadays. Most people probably spend 99% of their time on the web, since the
+web provides practically everything we need. Google, email, video streaming,
+etc. And these services provide massive value for people. They're efficient,
+educational, practical, ways to make money, entertaining...everything we
+could ask for.
+
+And that's ALL that people need to know to use the Internet. Just a vague
+concept of what it is (a massive network of interconnected devices) and how
+they can use it. They don't need to anything about the underlying protocols:
+how HTTP works, reliable data transfer, routing of packets, and the physical
+properties of the internet.
+
+People know that the power of the internet lies in the fact that with just a
+simple connection, they can reach nearly anyone in the world (well, anyone
+that they're likely to be interested in). And so with this notion, we can
+describe the internet in one sentence: a network of interconnected devices
+that allows the efficient sharing of information.
+
+That's pretty general and vague, but that's okay, because we already know
+what services the internet provides, and this general abstraction serves
+to cover all the internet's facets without going into the weeds.
+
+Now, back to the main topic at hand: what is Ethereum? How can we explain
+Ethereum without getting too technical? It's a little bit more difficult
+since there's not that many mainstream services or "killer apps" yet.
+Well, let's take some inspiration from our explanation of the Internet,
+and maybe then it will make more sense.
+
+Ethereum is not a totally new, paradigm shifting technology like the steam
+engine was, or the Internet. Ethereum is part of the existing "computer
+paradigm", and is actually an application built on top of the Internet.
+More specifically, Ethereum uses the TCP/IP protocols of the internet as
+the underlying transport and network layers.
+
+
+
+
+
+

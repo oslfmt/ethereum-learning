@@ -1,0 +1,61 @@
+What is Ethereum?
+
+Answering this question is difficult, because Ethereum is a blockchain.
+But now we have to explain what a blockchain is. Well, let's do it.
+
+At it's simplest, a blockchain is simply another way to store data.
+Computer science is all about storing and manipulating data, and so throughout
+the years many smart people have come up with ways to store data. The
+blockchain is no different. The reason it is called that is because it stores
+data in blocks, which you can think of as a container for a bunch of data,
+and the chain comes from the fact that these blocks are linked together
+by something called hash pointers. Hash pointers are secured by cryptographic
+hashes. Hashes are like unique fingerprints. For any digital piece of
+information, if even 1 bit is different, a different hash will be generated
+for it. So hashes can be thought of as unique identifiers. Once all the data
+has been put into the block, we take the hash of all this data, generating
+a unique block hash--no other block or any piece of data will have the same
+hash (statistically speaking).
+
+So now we have a bunch of blocks with unique identifiers. Since hashes are
+unique, they can thus also act as pointers to pieces of data. Inside each
+block we also store a piece of data called the "previous block hash". This
+effectively links the current block to the previous block. The previous block
+has the same thing, and links to it's predecessor, forming a chain of blocks
+all the way to the first block. This is what gives blockchain it's name.
+The blockchain data structure itself is not that special. Indeed, it is sort
+of like a glorified linked list.
+
+What really made blockchain such a big technology was the fact that it solved
+an important problem in distributed computing. Blockchain has another
+fundamental aspect to it, and that is the networking side--the computers that
+store the blockchain. Now let's jump back in time and explore the inspiration
+for blockchain in the first place.
+
+Traditionally, when we have dealt with money, we have trusted large
+institutions to safely manage our money, ie, banks. Banks keep a database,
+or a ledger, of all the accounts, their balances, and transaction history.
+We trust the bank, but there are many downsides to this system. First of all,
+banks can abuse our trust. Banks also serve as middlemen, and thus often take
+fees, or they have complicated interbanking processes that just make it more
+costly and slow for the people. Finally, people without access to banks are
+more or less left out of the financial system. There is a huge centralization
+of power with banks.
+
+And so the question was asked, can we build a decentralized system where the
+people manage the history, transactions, and accounts themselves, instead of
+relying on one central institution to do so? That is, can we just have a ton
+of people maintaining the ledger, instead of one closed-door bank? If we have
+one public ledger, and everyone maintains this public ledger and agrees to it,
+can we solve this problem?
+
+You might think that sounds crazy, and it is. Because yes, everyone can have
+a digital copy of a ledger, but now the question becomes, how the hell do
+you get people to agree on the state of the ledger? What's to prevent people
+from adding a few zeros to their accounts, or double spending money? The
+system would just be chaos and anarchy if that were the case. And so now
+the question shifts from a more technical one to a sort of social one.
+
+This is a distributed computing problem. How do you get a network of computers
+(maintaining ledgers) to agree on a common state? Big companies like Amazon
+and Google have already dealt with distributed computing.
