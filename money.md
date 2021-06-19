@@ -1,5 +1,3 @@
-WHAT IS ETHEREUM?
-
 You have already heard about bitcoin. Ethereum is described often described
 as a "world computer", because it is a general purpose blockchain that can
 be programmed with smart contracts to do any arbitrary computation. The
